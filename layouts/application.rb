@@ -1,10 +1,10 @@
 class Application < RubyLayout
-	def render
-		html do
-			render_head
-			render_body
-		end
-	end
+  def render
+    html do
+      render_head
+      render_body
+    end
+  end
 
   def render_head
     head do
